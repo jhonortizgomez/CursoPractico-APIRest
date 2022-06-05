@@ -36,8 +36,6 @@ categories.forEach(category => {
 });
 }
 
-
-
 //  Llamadas a la API
 async function getTrendingMoviesPreview() {
     const { data } = await api('trending/movie/day');
